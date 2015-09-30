@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Rainer Uppala">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		
+        <title>Kertolaskupeli</title>
+    </head>
+    <body>
+        <form name="multiplierForm">
+		
+		<h1>Auta kiireistä Mattia pukemaan mahdollisimman paljon vaatteita päälle!</h1>
+		
+		<p>Vastaa viiteen peräkkäiseen kertolaskuun oikein ja voita!</p>
+		
+		<p>Kirjoita vastauksesi kenttään ja paina "Vastaa" painiketta.</p>
+		
+		<p>	<span id ="question"></span></p>
+		
+		<p>	
+			Anna vastauksesi: 
+			<input type="text" id="pAnswer" autofocus=""></input>
+			<input type="button" value="Vastaa" onClick="checkCorrect()">
+		</p>
+		
+		<h2><span id="result">Vastaa nopeasti!</span></h2>
+		
+		
+		
+		<img id="matti" src="img/matti0.png">
+			
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/multiply.js"></script>	
+		</form>
+        
+    </body>
+</html>
